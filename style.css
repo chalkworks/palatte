@@ -1,0 +1,125 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,
+section {
+    display: block
+}
+body {
+    line-height: 1
+}
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+a,
+a img,
+a:before,
+a:after {
+    text-decoration: none;
+    transition-duration: .25s
+}
+button:focus {
+    outline: 0
+}
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+}
+* {
+    -webkit-tap-highlight-color: transparent
+}
+video::-webkit-media-controls-start-playback-button {
+    display: none !important
+}
+@font-face {
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font-style: normal
+}
+body {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #000000
+}
+h1 {
+    font-size: 86.4px;
+    font-weight: 400!important;
+    letter-spacing: 5.4px;
+    text-transform: lowercase;
+    color: #000000;
+    margin-top: 3em;
+    margin-bottom: 0.143em
+}
+h2 {
+    font-size: 48px;
+    text-transform: none;
+    color: #000000
+    letter-spacing: 3px;
+}
+#h2 .simple {
+  color: #F64747;
+}
+#h2 .curated {
+  color: #F5AB35;
+}
+#h2 .awesome {
+  color: #0096FF;
+}
+#h2 .handpicked {
+  color: #2ECC41;
+}
+h3 {
+  font-size: 36px;
+  color: #000000
+}
+a {
+   font-size: 24px;
+   color: #1da1f2
+}
+#main {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+#main .logo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+#main .copy {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 40px;
+    text-align: center
+}
+#main .copy p {
+    margin-bottom: 32px
+}
+#main .copy p span {
+    display: none
+}
+@media screen and (min-device-width: 1024px) {
+    #main .copy .button:hover {
+        transform: translateY(-3px)
+    }
+}
+@media screen and (min-device-width: 1024px) {
+    #services .service .item .button:hover {
+        transform: translateY(-3px)
+    }
+}
