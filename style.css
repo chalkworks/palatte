@@ -80,7 +80,8 @@ h3 {
 }
 a {
    font-size: 24px;
-   color: #1da1f2
+   color: #1da1f2;
+   display: inline
 }
 #main {
     width: 100%;
@@ -98,7 +99,7 @@ a {
     left: 50%;
     transform: translate(-50%, 0)
 }
-#main .copy {
+#main .content {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -107,14 +108,14 @@ a {
     padding-top: 40px;
     text-align: center
 }
-#main .copy p {
-    margin-bottom: 32px
+#main .content p {
+    font-size: 24px
 }
-#main .copy p span {
+#main .content p span {
     display: none
 }
 @media screen and (min-device-width: 1024px) {
-    #main .copy .button:hover {
+    #main .content .button:hover {
         transform: translateY(-3px)
     }
 }
