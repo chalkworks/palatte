@@ -1,0 +1,2 @@
+# palatte.github.io
+Palatte
