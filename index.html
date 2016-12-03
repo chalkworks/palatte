@@ -1,54 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>palatte</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+<head>
+  <meta charset="utf-8">
+  <title>palatte</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
-    <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
-    <meta name="description" content="palatte is a simple, curated list of awesome, handpicked colors for your project." />
-    <meta name="keywords" content="palatte, color, flat, ui, ux, project">
-    <meta property="og:site_name" content="palatte" />
-    <meta property="og:title" content="palatte" />
-    <meta property="og:type" content="landing" />
-    <meta property="og:image" content="https://ohmega.org/assets/images/card.jpg" />
-    <meta property="og:description" content="palatte is a simple, curated list of awesome, handpicked colors for your project." />
-    <meta property="og:url" content="https://palatte.ml" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="palatte" />
-    <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="https://ohmega.org/assets/images/card.jpg" />
-    <meta property="twitter:url" content="https://palatte.ml" />
-    <meta property="twitter:site" content="@thepalatte" />
-    <meta property="twitter:creator" content="@ambonium" />
-    <link rel="canonical" href="https://palatte.ml">
-  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
+  <meta name="description" content="palatte is a simple, curated list of awesome, handpicked colors for your project." />
+  <meta name="keywords" content="palatte, color, flat, ui, ux, project">
+  <meta property="og:site_name" content="palatte" />
+  <meta property="og:title" content="palatte" />
+  <meta property="og:type" content="landing" />
+  <meta property="og:image" content="https://ohmega.org/assets/images/card.jpg" />
+  <meta property="og:description" content="palatte is a simple, curated list of awesome, handpicked colors for your project." />
+  <meta property="og:url" content="https://palatte.ml" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="palatte" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="https://ohmega.org/assets/images/card.jpg" />
+  <meta property="twitter:url" content="https://palatte.ml" />
+  <meta property="twitter:site" content="@thepalatte" />
+  <meta property="twitter:creator" content="@ambonium" />
+  <link rel="canonical" href="https://palatte.ml">
 
-  <body>
-    <section id="main">
-      <a href="#"><img class="logo" src="img/palatte-black.png"/></a>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  --> <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  
+</head>
 
-      <div class="content">
-        <h1>palatte</h1>
-        <h2>palatte is a <font color="#FB6058">simple</font>, <font color="F5AB35">curated</font> list<br />
-        of <font color="#0096FF">awesome</font>, <font color="#2ECC41">handpicked</font> colors<br />
-        for your project.</h2><br /><br />
-        <p>made by <a href="https://twitter.com/ambonium" target="_blank">@ambonium</a></p>
+<body>
+  <div class="container" id="main">
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4 col-lg-2 col-lg-offset-5">
+      <a href="#"><img class="img-responsive" id="logo" src="img/palatte-black.png" /></a>
       </div>
-    </section>
+    </div>
+  
+    <div class="row content">
+      <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <h1 class="title">palatte</h1>
+        <h2 class="description">palatte is a
+          <font color="#FB6058">simple</font>,
+          <font color="F5AB35">curated</font> list<br /> of
+          <font color="#0096FF">awesome</font>,
+          <font color="#2ECC41">handpicked</font> colors<br /> for your project.</h2><br /><br />
+      </div>
+    </div>
+    
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-43818380-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-43818380-2', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
 </html>
