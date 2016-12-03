@@ -23,7 +23,11 @@ video::-webkit-media-controls-start-playback-button {
 a {
    font-size: inherit;
    color: #1da1f2;
-   display: inline
+   display: inline;
+   text-decoration: none;
+}
+a.hover {
+    text-decoration: none;
 }
 .color {
     background: #FF7473;
