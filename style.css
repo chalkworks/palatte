@@ -83,10 +83,10 @@ a.hover {
     text-align: center;
     vertical-align: middle;  
     margin-top: 3rem;
+    text-shadow: 1px 1px 5px gray;
 }
 
 .color-box:hover {
-    text-shadow: 1px 1px 5px gray;
     cursor: pointer;
     box-shadow: 1px 0px 10px gray;
 }
