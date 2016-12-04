@@ -85,11 +85,10 @@ a.hover {
     margin-top: 3rem;
 }
 
-a {
-    border: none !important;
-    box-shadow: none !important;
+.color-box:hover {
+    text-shadow: 1px 1px 5px gray;
+    cursor: pointer;
+    box-shadow: 1px 0px 10px gray;
 }
 
-a:hover {
-    text-decoration: none !important;
-}
+
